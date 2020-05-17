@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+		<title>Formulario De Contacto</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<div class="form">
+			<form action="guardar.php" method="POST">
+				<label for="cedula">Cedula</label>
+				<input type="text" name="cedula" placeholder="Cedula" required><br>
+				<label for="apellidos">Apellidos</label>
+				<input type="text" name="apellidos" placeholder="Apellidos" required><br>
+				<label for="nombres">Nombres</label>
+				<input type="text" name="nombres" placeholder="Nombres" required><br>
+				<label for="estado">Estado</label>
+				<input type="text" name="estado" placeholder="Estado" required><br>
+				<label for="municipio">Municipio</label>
+				<input type="text" name="municipio" placeholder="Municipio" required><br>
+				<label for="telefono">Telefono</label>
+				<input type="text" name="telefono" placeholder="Telefono" required><br>
+				<label for="email">Email</label>
+				<input type="email" name="correo" placeholder="Email" required><br>
+				<input type="submit" value="Guardar">
+			</form>
+		</div>
+	</body>
+</html>
